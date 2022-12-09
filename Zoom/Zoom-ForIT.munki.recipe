@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest version of the Zoom client for IT administrators and imports it into munki.</string>
+    <string>Downloads the latest version of Zoom for IT Admins package and imports it into munki.</string>
     <key>Identifier</key>
-    <string>com.github.inkeyes.munki.ZoomIT</string>
+    <string>com.github.inkeyes.munki.ZoomUS-ForIT</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>ZoomIT</string>
+        <string>Zoom</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/%NAME%</string>
         <key>pkginfo</key>
@@ -21,9 +21,9 @@
             <key>description</key>
             <string>Virtual metting and video chat client.</string>
             <key>developer</key>
-            <string>The Eclectic Light Company</string>
+            <string>Zoom Video Communications</string>
             <key>display_name</key>
-            <string>Zoom</string>
+            <string>%NAME%</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>unattended_install</key>
@@ -35,7 +35,7 @@
     <key>MinimumVersion</key>
     <string>1.4.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.smithjw.download.ZoomIT</string>
+    <string>com.github.mlbz521.download.ZoomUS-ForIT</string>
     <key>Process</key>
     <array>
         <dict>
@@ -44,7 +44,7 @@
             <key>Arguments</key>
             <dict>
                 <key>pkg_path</key>
-                <string>%pkg_path%</string>
+                <string>%pathname%</string>
                 <key>repo_subdirectory</key>
                 <string>%MUNKI_REPO_SUBDIR%</string>
             </dict>
