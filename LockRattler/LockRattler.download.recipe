@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest LockRattler release and save it as a disk image.</string>
+	<string>Downloads the latest LockRattler release and save it as a disk image. This is a test.</string>
 	<key>Identifier</key>
 	<string>com.github.inkeyes.download.LockRattler</string>
 	<key>Input</key>
