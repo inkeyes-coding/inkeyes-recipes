@@ -19,7 +19,7 @@
                 <string>testing</string>
             </array>
             <key>description</key>
-            <string>Virtual metting and video chat client.</string>
+            <string>The Zoom app provides cloud-hosted video conferencing, plus online meetings and group messaging.</string>
             <key>developer</key>
             <string>Zoom Video Communications</string>
             <key>display_name</key>
